@@ -7,12 +7,11 @@ Esta é uma API em .NET 9 que gera currículos otimizados para sistemas ATS (App
 - Geração de currículo baseado nos dados cadastrados.
 - Exportação em formato **HTML**.
 - Link para visualização do currículo direto no navegador.
-- Preparado para futura exportação em PDF (DinkToPdf).
 
 ## 🔧 Tecnologias
 
 - ASP.NET Core 9
-- DinkToPdf (planejado para PDF)
+- MongoDb
 - Bootstrap 5 (no HTML gerado)
 - Serviço hospedado com arquivos estáticos em `wwwroot`
 
