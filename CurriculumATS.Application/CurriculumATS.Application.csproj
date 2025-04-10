@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CurriculumATS.Domain\CurriculumATS.Domain.csproj" />
+    <ProjectReference Include="..\CurriculumATS.Infrastructure\CurriculumATS.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

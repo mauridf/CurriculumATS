@@ -1,0 +1,17 @@
+﻿.swagger-ui .topbar {
+    background-color: #2a2a72 !important;
+}
+
+    .swagger-ui .topbar .topbar-wrapper span {
+        color: white !important;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .swagger-ui .topbar .topbar-wrapper .link:after {
+        content: "Curriculum ATS API";
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        margin-left: 10px;
+    }
