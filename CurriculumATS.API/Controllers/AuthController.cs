@@ -30,6 +30,10 @@ public class AuthController : ControllerBase
         }
 
         var token = _authService.GenerateToken(pessoa);
-        return Ok(new { token });
+        return Ok(new
+        {
+            token,
+            id = pessoa.Id.ToString() // aqui você envia o id como string
+        });
     }
 }
